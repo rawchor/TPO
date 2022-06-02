@@ -1,0 +1,4 @@
+żagiel=sail
+pijany=drunk
+pomnik=statue
+rufa=stern

@@ -1,0 +1,3 @@
+rufa=heck
+żagiel=segel
+pomnik=denkmal

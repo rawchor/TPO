@@ -1,0 +1,3 @@
+rufa=korma
+żagiel=parus
+pomnik=statuya
