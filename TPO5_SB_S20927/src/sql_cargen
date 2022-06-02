@@ -1,0 +1,20 @@
+create table [dbo].Cars
+(
+    carId int primary key,
+    type varchar(255) not null,
+    brand varchar(255) not null,
+    year int null,
+    horsePower int null,
+    fuelUsage int null
+)
+
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (1, 'F1', 'Ferrari', 2022, 1030, 16);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (2, 'Lorry', 'Volvo', 2010, 500, 10);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (3, 'Lorry', 'Iveco', 2009, 1300, 12);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (4, 'F1', 'RedBull', 2022, 1070, 13);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (5, 'Car', 'Volga', 1969, 290, 12);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (6, 'Lorry', 'Fiat', 2022, 390, 11);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (7, 'Car', 'Jaguar', 1970, 450, 13);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (8, 'F1', 'AlphaTauri', 2022, 990, 15);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (9, 'Truck', 'Ford', 1995, 270, 11);
+INSERT INTO Cars (carId, type, brand, year, horsePower, fuelUsage) VALUES (10, 'Car', 'Dodge', 2015, 375, 7);
